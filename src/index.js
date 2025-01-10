@@ -2,6 +2,8 @@ import React from "react"; //React 라이브러리에서 React 객체를 가져�
 import ReactDOM from "react-dom/client"; //React의 DOM 조작 메서드를 가져오기 위해 react-dom 라이브러리에서 ReactDOM을 가져옵니다. 특히, "react-dom/client"로부터 가져오는 것은 React 18 이상의 Concurrent Mode와 같이 사용되는 새로운 렌더링 API 
 import App from "./App"; //현재 디렉토리에서 "App"이라는 컴포넌트(또는 모듈)를 가져옵니다. 이것은 원하는 웹 애플리케이션의 주요 컴포넌트
 
+import './assets/scss/style.scss';
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
